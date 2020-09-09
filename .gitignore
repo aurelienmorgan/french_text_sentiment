@@ -1,0 +1,39 @@
+
+**/.vs/
+README.txt
+
+**/.ipynb_checkpoints/
+**/__pycache__/
+_archive/
+# tmp/ ## DON'T IGNORE !! (notebook images for aligned figures)
+
+# tensorboard events files
+log/fit/*
+log/fit_archive/
+
+
+
+# trained instances of French Reviews NLP model
+model/trained_instances/**/*.h5
+
+# XGBoost Regressor backup
+model/optimization/xgbR_gridCv.pkl
+
+# final fine-tuned French Tweets NLP model
+model/tweets_model/model_weights.h5
+
+
+images/_archive/
+
+# ## Web-scraping Python source code => ##
+/Web_Scraping/
+
+# ## (otherwize downloadable) data files => ##
+/data/tweets_fr/*
+data/fastText_french/*
+
+# ## DO NOT IGNORE => ##
+!data/fastText_french/license_n_aknowledg.txt
+!data/fastText_french/cc.fr.300.light.vec.ipynb
+!data/fastText_french/cc.fr.300.light.vec.html
+

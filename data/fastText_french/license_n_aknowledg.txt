@@ -1,0 +1,29 @@
+'///////////////////////////////////////////////
+
+https://fasttext.cc/docs/en/crawl-vectors.html
+
+'///////////////////////////////////////////////
+
+In the text format, each line contain a word followed by its vector. Each value is space separated, and words are sorted by frequency in descending order.
+
+'///////////////////////////////////////////////
+
+License
+The word vectors are distributed under the Creative Commons Attribution-Share-Alike License 3.0.
+(https://creativecommons.org/licenses/by-sa/3.0/)
+
+'///////////////////////////////////////////////
+
+References
+
+E. Grave*, P. Bojanowski*, P. Gupta, A. Joulin, T. Mikolov, Learning Word Vectors for 157 Languages
+
+@inproceedings{grave2018learning,
+  title={Learning Word Vectors for 157 Languages},
+  author={Grave, Edouard and Bojanowski, Piotr and Gupta, Prakhar and Joulin, Armand and Mikolov, Tomas},
+  booktitle={Proceedings of the International Conference on Language Resources and Evaluation (LREC 2018)},
+  year={2018}
+}
+
+'///////////////////////////////////////////////
+

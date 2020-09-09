@@ -1,0 +1,3 @@
+Interrupt beacon for the "InterruptOnBeacon" Keras callback.
+
+Rename it to "TRAINING_INTERRUPT_BEACON" when manual interrupt is to be triggered.
